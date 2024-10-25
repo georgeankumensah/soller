@@ -7,6 +7,7 @@
   nav > div {
     display: none;
   }
+
   .menu {
     display: flex;
   }
@@ -88,6 +89,7 @@
   /* end of hero section */
   .pick {
     height: 576px;
+    padding: 0 20px;
   }
   .pick .shapes {
     display: none;
@@ -103,20 +105,20 @@
     width: 358px;
   }
   .services {
-    padding: 0;
-    background: red;
+    padding: 48px 20px;
+    /* background: red; */
     flex-direction: column-reverse;
     justify-content: space-between;
-    height:  fit-content;
+    height: 1413px;
     background-position: bottom left;
-    background-size: 523px;
+    background-size: 423px;
   }
 
-  .services .content > p  {
+  .services .content > p {
     font-size: 16px;
     text-align: center;
   }
-  .services .content h1{
+  .services .content h1 {
     font-size: 32px;
     text-align: center;
   }
@@ -127,8 +129,7 @@
 
   .services .grid div {
     width: 156px;
-  height: 250px;
-  
+    height: 250px;
   }
 
   .services .grid {
@@ -138,6 +139,173 @@
   }
   .services > img {
     height: 471px;
-    width: 220px;
+    align-self: center;
+    object-fit: contain;
+  }
+
+  .features {
+    padding: 48px 20px;
+    /* background: red; */
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1413px;
+    background-position: bottom right;
+    background-size: 423px;
+  }
+
+  .features .content > p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .features .content h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .features .content h4 {
+    text-align: center;
+  }
+
+  .features .grid div {
+    width: 156px;
+    height: 250px;
+  }
+
+  .features .grid {
+    place-items: center;
+    grid-template-rows: 1fr 1fr;
+    gap: 48px;
+  }
+  .features > img {
+    height: 471px;
+    align-self: center;
+    object-fit: contain;
+  }
+  .awesome {
+    /* height: 916px; */
+
+    padding: 48px 20px;
+  }
+  .awesome > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .awesome > div > div h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .awesome > div > div h1 {
+    font-size: 32px;
+    text-align: center;
+    max-width: 361px;
+    margin: 0 auto;
+  }
+  .awesome > div > div > p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .awesome > div > button {
+    width: 243px;
+    font-size: 20px;
+  }
+  #cards-group {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 361px;
+  }
+
+  .awesome .card {
+    height: 356px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #slide-btn {
+    /* background: #000; */
+
+    flex-direction: row;
+    justify-content: center;
+    width: 160px;
+    /* border-bottom: 2px dashed green; */
+  }
+  .systems {
+    height: 614px;
+    padding: 48px 20px;
+  }
+
+  .systems > div {
+    flex-direction: column;
+    height: 300px;
+  }
+  .systems img {
+    height: 300px;
+  }
+
+  .systems .content div h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .systems .content div p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .systems .content  a {
+    display: none;
+  }
+
+  .available {
+    height: 606px;
+    padding: 48px 20px;
+  }
+  .available > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .available > div > div h4 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .available > div > div h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .available > div > div > button {
+    width:243px;
+    font-size: 20px;
+  }
+  .available > div > div > span {
+    color:white;padding: 0;
+    text-align: center;
+  }
+  .available > img {
+    height: 196px;
+    width: 358px;
+    margin: 0 auto;
+  }
+  footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 196px;
+    padding: 24px 0px;
+  }
+  footer > div {
+    max-width: 361px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 94px;
+    align-items: center;
+  }
+  footer > div > div {
+    flex-direction: column;
+    height: 100%;
+
+  }
+  footer > div > ul {
+    margin-top: 24px;
   }
 }
